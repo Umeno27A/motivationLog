@@ -5,6 +5,13 @@ body {
     color: black;
 }
 
+.factor {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
 .container {
     max-width: 400px;
     margin: auto;
@@ -26,7 +33,7 @@ body {
 }
 
 .progress-ring__circle {
-    stroke: blue;
+    stroke: #007BFF;
     stroke-width: 10;
     fill: transparent;
     stroke-dasharray: 314;
@@ -56,13 +63,57 @@ input {
 }
 
 button {
-    background-color: blue;
+    background-color: #007BFF;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
     background-color: darkblue;
 }
+
+.memo {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+.memo h2 {
+    text-align: center;
+}
+.memo label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.memo input, textarea {
+    width: 96%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.memo textarea {
+    height: 150px;
+    resize: none;
+}
+.memo button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.memo button:hover {
+    background-color: #0056b3;
+}
+
