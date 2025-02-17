@@ -6,7 +6,8 @@
 
  体調管理画面の必要機能：検温、チェック項目、睡眠時間 
 
- 開発言語：HTML,CSS
+ 開発言語：HTML,CSS,MySQL
 ***
 詳細はWikiをご覧ください！
-
+開発概要：https://github.com/Umeno27A/motivationLog/wiki/Development-Overview
+開発手順：https://github.com/Umeno27A/motivationLog/wiki/Development-Procedures
