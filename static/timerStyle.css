@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.timer {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-ring__circle {
+    stroke: blue;
+    stroke-width: 10;
+    fill: transparent;
+    stroke-dasharray: 314;
+    stroke-dashoffset: 314;
+    transition: stroke-dashoffset 1s linear;
+}
+
+.time-display {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls div {
+    display: block;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
