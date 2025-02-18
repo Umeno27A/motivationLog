@@ -8,5 +8,12 @@
 
  開発言語：HTML,CSS
 ***
-詳細はWikiをご覧ください！
+詳細は以下のページに記載されています。
+
+開発概要「Development Overview」https://github.com/Umeno27A/motivationLog/wiki/Development-Overview
+
+開発手順書「Development Procedures」https://github.com/Umeno27A/motivationLog/wiki/Development-Procedures
+
+
+
 
